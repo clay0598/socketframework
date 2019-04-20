@@ -1,9 +1,9 @@
 package com.acc.socketframework.factory;
 
+import com.acc.socketframework.bean.Platform;
+
 import java.util.LinkedList;
 import java.util.Queue;
-
-import com.acc.socketframework.bean.Platform;
 
 /**
  * 存放数据的工厂

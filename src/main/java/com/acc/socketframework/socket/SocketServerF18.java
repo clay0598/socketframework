@@ -1,19 +1,14 @@
 package com.acc.socketframework.socket;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.Socket;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import com.acc.socketframework.bean.F18;
 import com.acc.socketframework.util.Constant;
 import com.acc.socketframework.util.DBUtil;
 import com.acc.socketframework.util.SocketUtil;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import java.io.*;
+import java.net.Socket;
 
 /**
  * 用来处理Socket请求

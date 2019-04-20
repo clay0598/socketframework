@@ -1,8 +1,9 @@
 package com.acc.socketframework.factory;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.acc.socketframework.bean.F16;
+import com.acc.socketframework.iq.heart.TimeIQ;
+import com.acc.socketframework.iq.provider.SelfIQProvider;
+import com.acc.socketframework.util.Constant;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.jivesoftware.smack.ConnectionConfiguration;
@@ -16,10 +17,8 @@ import org.jivesoftware.smack.packet.IQ;
 import org.jivesoftware.smack.packet.Packet;
 import org.jivesoftware.smack.provider.ProviderManager;
 
-import com.acc.socketframework.bean.F16;
-import com.acc.socketframework.iq.heart.TimeIQ;
-import com.acc.socketframework.iq.provider.SelfIQProvider;
-import com.acc.socketframework.util.Constant;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ConnectionFactory {
 

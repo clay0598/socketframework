@@ -1,10 +1,9 @@
 package com.acc.socketframework.iq.heart;
 
-import java.util.Date;
-
+import com.acc.socketframework.util.DateUtil;
 import org.jivesoftware.smack.packet.IQ;
 
-import com.acc.socketframework.util.DateUtil;
+import java.util.Date;
 
 public class TimeIQ extends IQ {
 	

@@ -1,5 +1,12 @@
 package com.acc.socketframework;
 
+import com.acc.socketframework.socket.SocketClientF18;
+import com.acc.socketframework.socket.SocketServerF18;
+import com.acc.socketframework.util.Constant;
+import com.acc.socketframework.xmpp.SendMsg;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -8,14 +15,6 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
-import com.acc.socketframework.socket.SocketClientF18;
-import com.acc.socketframework.socket.SocketServerF18;
-import com.acc.socketframework.util.Constant;
-import com.acc.socketframework.xmpp.SendMsg;
 
 public class Startup {
 	private static Log logger = (Log) LogFactory.getLog(Startup.class);

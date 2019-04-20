@@ -1,19 +1,14 @@
 package com.acc.socketframework.xmpp;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.TimerTask;
-import java.util.Map.Entry;
-
+import com.acc.socketframework.bean.Platform;
+import com.acc.socketframework.factory.ConnectionFactory;
+import com.acc.socketframework.factory.DataFactory;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.jivesoftware.smack.XMPPConnection;
 
-import com.acc.socketframework.bean.Platform;
-import com.acc.socketframework.factory.ConnectionFactory;
-import com.acc.socketframework.factory.DataFactory;
+import java.util.*;
+import java.util.Map.Entry;
 
 /**
  * 向主机发送数据保存

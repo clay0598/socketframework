@@ -1,14 +1,13 @@
 package com.acc.socketframework.iq.provider;
 
-import java.io.IOException;
-
+import com.acc.socketframework.iq.heart.AlertIQ;
 import org.jivesoftware.smack.packet.IQ;
 import org.jivesoftware.smack.provider.IQProvider;
 import org.jivesoftware.smack.util.StringUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
-import com.acc.socketframework.iq.heart.AlertIQ;
+import java.io.IOException;
 
 public class AlertIQProvider implements IQProvider{  
 

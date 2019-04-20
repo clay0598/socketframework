@@ -1,21 +1,20 @@
 package com.acc.socketframework.socket;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.Socket;
-import java.util.List;
-import java.util.Queue;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import com.acc.socketframework.bean.F16;
 import com.acc.socketframework.bean.Platform;
 import com.acc.socketframework.util.Constant;
 import com.acc.socketframework.util.SocketUtil;
 import com.acc.socketframework.xmpp.SendMsg;
 import com.acc.socketframework.xmpp.XMPPSender;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * 用来处理Socket请求

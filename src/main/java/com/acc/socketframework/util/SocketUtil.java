@@ -1,22 +1,13 @@
 package com.acc.socketframework.util;
 
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.acc.socketframework.bean.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.acc.socketframework.bean.F16;
-import com.acc.socketframework.bean.F18;
-import com.acc.socketframework.bean.Platform;
-import com.acc.socketframework.bean.PlatformNode;
-import com.acc.socketframework.bean.PlatformPhone;
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
+import java.util.*;
 
 public class SocketUtil {
 	

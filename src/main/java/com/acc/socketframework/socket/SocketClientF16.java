@@ -1,11 +1,11 @@
 package com.acc.socketframework.socket;
 
+import com.acc.socketframework.util.Constant;
+import com.acc.socketframework.util.SocketUtil;
+
 import java.io.OutputStream;
 import java.net.Socket;
 import java.util.TimerTask;
-
-import com.acc.socketframework.util.Constant;
-import com.acc.socketframework.util.SocketUtil;
 
 public class SocketClientF16 extends TimerTask{
 	SocketUtil protocl = new SocketUtil();
